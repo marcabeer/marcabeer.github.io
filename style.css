@@ -1,0 +1,179 @@
+
+/*to apply settings to a class of objects, use ".classname{}", e.g., ".navbar{}"
+to apply settings to a specific object with an ID, use "#idname{}"*/
+
+
+/*Home page*/
+
+head{
+	margin: 0;
+	padding: 0%
+	height: 50%;
+}
+
+body{
+	margin: 0;
+	padding: 0
+}
+
+h1 {
+  font-size: 300%;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%
+}
+
+#title_text_home{
+	color: rgb(255,255,255);
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+#title_text_other{
+	color: rgb(255,255,255);
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#title_background_home{
+	background-image: url(colorado_landscape.jpg);
+	background-size: cover;
+	margin: 0;
+	height: 120%;
+}
+
+#title_background_other{
+	background-image: url(colorado_landscape.jpg);
+	background-size: cover;
+	margin: 0;
+	height: 120%;
+}
+
+#subtitle_text {
+  font-size: 150%;
+  margin: 0;
+  padding: 0
+}
+
+#home_navbar {
+	background-color: rgb(83, 117, 39);
+	font-size: 400%;
+	margin-bottom: 2.5%;
+	padding: 0%;
+}
+
+#navbar_text_color {
+	color: rgb(255, 255, 255);
+	font-size: 40%;
+	margin: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+#navbar_text_color:hover{
+	color: rgb(0, 0, 0);
+}
+
+#navbar_text_color:active{
+	color: rgb(0, 0, 0);
+}
+
+#home_container{
+	position: center;
+	padding: 0%;
+	width:300%;
+	margin:auto;
+}
+
+#home_row{
+	margin:0%;
+}
+
+#column_1{
+	width: 200%;
+	padding-left: 0%;
+	padding-right: 2.5%;
+}
+
+#column_2{
+	width: 200%;
+	padding-left: 2.5%;
+	padding-right: 0%;
+}
+
+#personal_statement{
+	line-height: 1.8;
+	width: 120%;
+	height: 100%;
+	padding-top: 24px;
+	padding-bottom:7%px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.jumbotron{
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom:7%px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+#self_portrait{
+	background-image:url('portrait.jpg') ;
+	background-size: cover;
+	width: 100%;
+	height: 85%
+}
+
+#about_me_header{
+  font-size: 200%;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%
+}
+
+#about_me_content{
+	font-size: 120%;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+/*Profile picture tracking*/
+#profile_tracker{
+	background-color: rgb(255,255,255);
+}
+
+#profile_tracker_header{
+	font-size: 130%;
+	text-align: center;
+}
+
+
+/*Research page*/
+
+#research_header{
+  font-size: 175%;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%
+}
+
+#research_divider{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#research_content{
+	background-color: rgb(245, 245, 245);
+	margin-top: 0%;
+	margin-bottom: 1%;
+	margin-left:0%;
+	margin-right:0%;
+}
