@@ -148,9 +148,17 @@ h1 {
 	background-color: rgb(255,255,255);
 }
 
+#profile_tracker_photo{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #profile_tracker_header{
 	font-size: 130%;
-	text-align: center;
+}
+
+#profile_tracker_text{
+	font-size:100%;
 }
 
 
