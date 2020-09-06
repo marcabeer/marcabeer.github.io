@@ -123,8 +123,7 @@ h1 {
 
 #self_portrait{
 	background-image:url('portrait.JPG');
-	background-size: contain;
-	width: 100%
+	background-size: 100%
 }
 
 #about_me_header{
