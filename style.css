@@ -123,7 +123,7 @@ h1 {
 
 #self_portrait{
 	background-image:url('portrait.JPG');
-	background-size: cover;
+	background-size: contain;
 	width: 100%
 }
 
