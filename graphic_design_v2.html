@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -23,8 +23,8 @@
   </head>
 
   <body>
-    <div class="container-fluid" id="title_background_other">
-      <h1 class="text-center" id="title_text_other">Marc A. Beer</h1>
+    <div class="container-fluid" id="title_background_home">
+      <h1 class="text-center" id="title_text_home">Marc A. Beer</h1>
     </div>
 
      
@@ -37,39 +37,46 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <nav class="navbar navbar-expand-lg" id="home_navbar">
-      <div class="container">
+      <div class="container-fluid">
+        <a></a>
         <a class="navbar-brand" id="navbar_text_color" href="index.html">Home</a>
         <a class="navbar-brand" id="navbar_text_color" href="research.html">Research</a>
         <a class="navbar-brand" id="navbar_text_color" href="publications.html">Publications</a>
         <a class="navbar-brand" id="navbar_text_color" href="cv.html">CV</a>
         <a class="navbar-brand" id="navbar_text_color" href="graphic_design.html">Graphic Design</a>
         <a class="navbar-brand" id="navbar_text_color" href="contact.html">Contact</a>
+        <a></a>
       </div>
     </nav>
 
-      <div class="container" id="home_container">
-        <div class="row justify-content-between" id="home_row">
-
-          <div class="col-sm-6" id="column_1">
-            <div class="jumbotron" id="research_content">
-              <h1 id="research_header">Contact me</h1>
-              <hr id="research_divider">
-              <p id="about_me_content">I am always excited to think about questions pertaining to landscape genetics, genomics, and evolutionary ecology in general.</p>
-              <p id="about_me_content">Contact me at marcabeer[at]gmail[dot]com.</p>
+    <div class="container-fluid">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-left:1%">
+            <div class="jumbotron">
+              <h1 style="font-size:2vw">Data visualization, illustration, and graphic design</h1>
+              <hr class="my-4">
+               <p style="font-size:1.5vw">Data visualization is a crucial component of science communication, particularly at the data / decision-making interface where individuals of varying backgrounds coalesce. I have over ten years of experience using graphic design software to generate high-quality illustrations, which have been featured in peer-reviewed publications, numerous presentations given by myself and colleagues, and grant proposals. Two of five grant proposals that I have contributed illustrations and conceptual diagrams to have been funded by the National Science Foundation. Below is a sample of my graphic design work.</p>
             </div>
           </div>
-
-          <div class="col-sm-6" id="column_1">
-            <div class="jumbotron" id="research_content">
-              <h1 id="research_header">Page visitors</h1>
-              <hr id="research_divider">
-              <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5rqjdc7xak6&amp;m=0c&amp;c=0006ff&amp;cr1=ffffff&amp;sx=0&amp;cw=e4ecf5&amp;cb=a8d138" async="async"></script>
-            </div>
-          </div>
-
         </div>
+    </div>
 
-      </div>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding-left:1%">
+            <div class="jumbotron">
+                <img src="devil_exclusion_experiment.png" alt="Experimental design proposal" style="float:right; width:100%">
+               <p style="font-size:1.5vw"> Conceptual diagram of an experiment involving characterization of plant and soil community characterization. </p>
+            </div>
+          </div>
+          <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding-left:1%">
+            <div class="jumbotron">
+                <img src="ecosystem_feedbacks.png" alt="Experimental design proposal" style="float:right; width:100%">
+               <p style="font-size:1.5vw"> Conceptual diagram of ecosystem feedbacks. </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
 
   </body>
 </html>
